@@ -1,6 +1,7 @@
 import os 
 import sys
 import urllib.parse
+from random import shuffle
 
 START_TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
@@ -46,6 +47,7 @@ def save_country(country, page):
             f.write(page)
 
 def generate_and_save_index(countries):
+    shuffle(countries)
     page = START_TEMPLATE.format("the World", "the World")
     page += "\n <p>🔥🔥🔥🔥</p>"
     page += '\n<p><a href="https://en.wikipedia.org/wiki/2022_food_crises">2022 food crises</a>'
