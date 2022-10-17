@@ -2,7 +2,7 @@
 
 A list of ongoing "fires" -- disasters, crises, or other events that might stop you from living a "normal" life in specific countries.
 
-Contributions are welcome - please do a pull request to the "fires.itwof" file and carefully following the existing format
+Contributions are welcome - please do a pull request to the "fires.itwof" file and carefully follow the existing format
 
 * Two blank lines between countries
 * Each country block can contain one or more "fires"
