@@ -51,6 +51,7 @@ def generate_and_save_index(countries):
     page += '\n<p><a href="https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine">Ukraine war</a>'
 
     page += "\n<h3>Or check if individual countries are burning by clicking on the links below</h3>"
+    page += f'\n<p>Want to add to the list? Contribute <a href="https://github.com/sixhobbits/istheworldonfire-com">on GitHub</a>.</p>'
     for country in countries:
         country_quoted = urllib.parse.quote(country)
         page += f"\n<p><a href={country_quoted}>{country}</a></p>"
